@@ -1,0 +1,100 @@
+ h1 {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    padding: 0em;
+    text-align: center;
+   
+}
+
+.contenedorV {
+    display: flex;
+    justify-content: center;   /* centra el contenido */
+    gap: 20px;                 /* espacio razonable */
+    width: 100%;
+}
+
+.contenedorV video,
+.contenedorV iframe {
+    width: 30%;                /* ahora sí caben 3 */
+    height: 200px;
+}
+
+h3{
+
+    color: rgb(0, 0, 0);
+    padding: 0em;
+    text-align: center;
+
+}
+
+.contenedorImg {
+    display: flex;
+    justify-content: center;  /* centra */
+    gap: 20px;
+    width: 100%;
+}
+
+.contenedorImg img {
+    width: 30%;               /* mismo tamaño que videos */
+    height: 200px;
+    object-fit: contain;        /* NO se deforman 🔥 */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+h4{
+
+    color: rgb(0, 0, 0);
+    padding: 0em;
+    text-align: center;
+
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto; /* centra */
+    gap: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formulario textarea {
+    height: 100px;
+    resize: none;
+}
+
+.formulario button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+   
+}
