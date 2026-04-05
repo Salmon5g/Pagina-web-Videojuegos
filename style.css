@@ -1,11 +1,20 @@
- h1 {
+ /* Agrega esto al inicio de style.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Modifica tu h1 así */
+h1 {
     background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 1em;
     text-align: left;
-    width: 100%;
+    width: 102%;
     position: sticky;
     top: 0;
+    margin: 0;        /* ← esto elimina el espacio blanco */
+    box-sizing: border-box; /* ← evita que el padding genere desborde */
 }
 
 h2 {
